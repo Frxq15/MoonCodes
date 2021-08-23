@@ -1,0 +1,42 @@
+HELP_MESSAGE:
+  - '&b&lMoonCodes &8- &eHelp'
+  - '&b/code'
+  - '&8&l ┌ &bcreate &e<code> <use limit> &8- &7create a code'
+  - '&8&l ├ &bdelete &e<code> &8- &7delete a code'
+  - '&8&l ├ &binfo &e<code> &8- &7view information about a code'
+  - '&8&l ├ &bcommands &e<code> &8- &7view all commands of a code'
+  - '&8&l ├ &bredeem &e<code> &8- &7redeem a code'
+  - '&8&l ├ &blistcodes &8- &7view all available codes'
+  - '&8&l ├ &bcheck &e<code> &8- &7check if a code is redeemable'
+  - '&8&l ├ &breload &8- &7reload the plugin'
+  - '&8&l └ &bhelp &8- &7display the help message'
+CODE_GENERATED:
+  - '&f[&bMoonCodes&f] &bCode Generated Successfully'
+  - '&b&l * &7Code: &b%code%'
+  - '&b&l * &7Uses: &b%uses%'
+  - ''
+  - '&7&oAdd commands to this code in the config.'
+CODE_INFORMATION:
+  - '&f[&bMoonCodes&f] &bCode Information'
+  - '&b&l * &7Code: &b%code%'
+  - '&b&l * &7Created by: &b%createdby%'
+  - '&b&l * &7Uses Remaining: &b%uses%'
+CODE_STATUS:
+  - '&f[&bMoonCodes&f] &bCode Status'
+  - '&b&l * &7Code: &b%code%'
+  - '&b&l * &7Status: %status%'
+  - '&b&l * &7Uses Remaining: &b%uses%'
+#/STRING LIST FORMATS
+COMMANDS_HEADER: "&f[&bMoonCodes&f] &7Viewing commands of code &b%code%&7:"
+COMMANDS_FORMAT: "&b&l * &7%command%"
+CODES_HEADER: "&f[&bMoonCodes&f] &7Viewing all stored codes:"
+CODES_FORMAT: "&b&l * &7%code%"
+CODE_DELETED: "&f[&bMoonCodes&f] &7You deleted the code &b%code% &7sucessfully."
+NO_PERMISSION: "&cYou dont have permission to perform this command."
+CODE_EXISTS: "&f[&bMoonCodes&f] &7An entry with this code already exists, use /code info for more information."
+CODE_DOESNT_EXIST: "&f[&bMoonCodes&f] &7An entry with this code does not exist."
+INVALID_USES_SPECIFIED: "&f[&bMoonCodes&f] &7Please enter a valid number of uses."
+PLUGIN_RELOADED: "&f[&bMoonCodes&f] &7The plugin was reloaded successfully."
+CODE_ZERO_USES: "&f[&bMoonCodes&f] &7This code has already reached its redeemable limit."
+CODE_ALREADY_REDEEMED: "&f[&bMoonCodes&f] &7You have already redeemed this code."
+CODE_REDEEMED: "&f[&bMoonCodes&f] &7You redeemed the code &b%code%&7."

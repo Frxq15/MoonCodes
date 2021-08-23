@@ -1,0 +1,10 @@
+name: MoonCodes
+version: ${project.version}
+main: me.frxq15.mooncodes.MoonCodes
+authors: [Frxq15]
+description: Code redeem plugin
+
+commands:
+  code:
+    usage: /code <args>
+    aliases: [codes]
